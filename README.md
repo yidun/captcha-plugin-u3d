@@ -2,7 +2,7 @@
 
 ## 使用方法
 
-下载并解压出 captcha_u3d.unitypackage，在 Assets 目录右键选择 Import Package 导入 captcha_u3d.unitypackage 资源包
+下载并解压出 captcha-plugin-u3d.unitypackage，在 Assets 目录右键选择 Import Package 导入 captcha-plugin-u3d.unitypackage 资源包
 
 其中 Test.cs 是调用示例代码
 
@@ -27,7 +27,6 @@ Options 是配置项
     |----|----|--------|------|----|
     | captcha_id | string | 是 | 无 | 易盾分配的业务 id |
     | debug | bool | 否 | false | 是否debug模式，debug模式有详细日志 |
-    | is_no_sense_mode | boolean | 否 | false | 是否智能无感知 |
 	| is_hide_close_button | boolean | 否 | false | 是否隐藏关闭按钮 |
 	| use_default_fallback | boolean | 否 | true | 是否采用默认降级 |
 	| is_touch_outside_disappear | boolean | 否 | true | 点击弹窗外部是否可关闭 |
